@@ -27,7 +27,8 @@ Actual procedure on how to integrate Hideez AuthN solution and Gluu Server is ba
 
 ### Download and copy Hideez components and dependencies ###
 
-Go to the Hideez account on github.com to the hideez-gluu project. Download Hideez components and copy them to the appropriate places on Gluu server
+Go to the Hideez account on github.com to the hideez-gluu project (https://github.com/HideezGroup/hideez-gluu). Download Hideez components and copy them to the appropriate places on Gluu server
+
 * login.xhtml, otplogin.xhtml copy to ${gluu_chroot}/opt/gluu/jetty/oxauth/custom/pages/auth/hideez/
 * hideez.jar copy to ${gluu_chroot}/opt/gluu/jetty/oxauth/custom/libs/
 * oxauth.properties copy to ${gluu_chroot}/opt/gluu/jetty/oxauth/custom/i18n/
